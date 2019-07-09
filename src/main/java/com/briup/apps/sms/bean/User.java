@@ -6,6 +6,13 @@ public class User{
 	private Integer age;
 	private String gender;
 	private String telephone;
+	private long clazz_id;
+	public long getClazz_id() {
+		return clazz_id;
+	}
+	public void setClazz_id(long clazz_id) {
+		this.clazz_id = clazz_id;
+	}
 	public long getId() {
 		return id;
 	}
