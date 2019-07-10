@@ -38,7 +38,7 @@ public class User{
 	public void setClazz_id(long clazz_id) {
 		this.clazz_id = clazz_id;
 	}
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 	public void setId(long id) {
