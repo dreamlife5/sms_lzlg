@@ -14,19 +14,29 @@ import com.briup.apps.sms.service.UserService;
  **/
 @Service
 public class UserServiceImpl implements UserService{
-     //依赖注入，实例化UserDao并且赋值给userDao这个变量
+     //依赖注入，实例化UserDao并给userDao这个变量赋值
 	@Resource
 	private UserDao userDao;
+
 	@Override
-	public List<User> selectAll(){
-	return userDao.selectAll();
+	public List<User> selectAll() {
+		// TODO Auto-generated method stub
+		return userDao.selectAll();
 	}
+
 	@Override
-	public void saveOrUpdate(User user) throws Exception{
-		if(user.getId() == null) {
+	public void saveOrUpdate(User user) throws Exception {
+		if (user.getId() == null) {
 			userDao.insert(user);
 		}else {
 			userDao.update(user);
 		}
+		
 	}
-}
+
+
+	}
+	
+		
+	
+

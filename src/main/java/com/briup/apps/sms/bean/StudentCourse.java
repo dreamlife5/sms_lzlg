@@ -1,10 +1,19 @@
 package com.briup.apps.sms.bean;
 
 public class StudentCourse {
-     private long id;
-     private long user_id;     
-     private long course_id;
-     private String xk_time;
+     private Long id;
+     private Long user_id;     
+     private Long course_id;
+     public void setId(Long id) {
+		this.id = id;
+	}
+	public void setUser_id(Long user_id) {
+		this.user_id = user_id;
+	}
+	public void setCourse_id(Long course_id) {
+		this.course_id = course_id;
+	}
+	private String xk_time;
      private String grade;
 	public long getId() {
 		return id;

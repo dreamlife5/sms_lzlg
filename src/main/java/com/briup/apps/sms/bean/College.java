@@ -4,6 +4,12 @@ public class College {
 	private Long id;
 	private String name;
 	private String description;
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setSchool_id(Long school_id) {
+		School_id = school_id;
+	}
 	private Long School_id;
 	public Long getId() {
 		return id;
