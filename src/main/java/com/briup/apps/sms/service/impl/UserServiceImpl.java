@@ -14,7 +14,7 @@ import com.briup.apps.sms.service.UserService;
  **/
 @Service
 public class UserServiceImpl implements UserService{
-     //依赖注入，实例化UserDao并且赋值给userDao这个变量
+     //依赖注入，实例化UserDao并给userDao这个变量赋值
 	@Resource
 	private UserDao userDao;
 
