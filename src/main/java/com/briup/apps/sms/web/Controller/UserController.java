@@ -15,8 +15,8 @@ import com.briup.apps.sms.service.UserService;
 public class UserController {
 	@Autowired
 	private UserService userService;
-
-	// http://localhost:8080/user/selectAll
+	
+	// http://localhost:8080/school/selectAll
 	@GetMapping("selectAll")
 	public List<User> selectAll(){
 		return userService.selectAll();

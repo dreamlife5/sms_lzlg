@@ -1,9 +1,15 @@
 package com.briup.apps.sms.bean;
 
 public class Clazz {
-	private long id;
+	private Long id;
 	private String name;
-	private long begin_time;
+	private Long begin_time;
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setBegin_time(Long begin_time) {
+		this.begin_time = begin_time;
+	}
 	public long getId() {
 		return id;
 	}
