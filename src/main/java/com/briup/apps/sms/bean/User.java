@@ -2,8 +2,27 @@ package com.briup.apps.sms.bean;
 
 public class User{
 	private Long id;
-	private String name;
-	private Integer age;
+	private String realname;
+	private String password;
+	private String student_no;
+	public String getRealname() {
+		return realname;
+	}
+	public void setRealname(String realname) {
+		this.realname = realname;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getStudent_no() {
+		return student_no;
+	}
+	public void setStudent_no(String student_no) {
+		this.student_no = student_no;
+	}
 	private String gender;
 	private String telephone;
 	private Long clazz_id;
@@ -24,18 +43,6 @@ public class User{
 	}
 	public void setId(long id) {
 		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public Integer getAge() {
-		return age;
-	}
-	public void setAge(Integer age) {
-		this.age = age;
 	}
 	public String getGender() {
 		return gender;
