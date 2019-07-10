@@ -1,5 +1,5 @@
 package com.briup.apps.sms.web.Controller;
 
-public class YanghlController {
+public class ClazzController {
 
 }
