@@ -32,3 +32,6 @@ public class User_Role {
 		this.role_id = role_id;
 	}
 }
+/**
+ * xiugai
+ */
