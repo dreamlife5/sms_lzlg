@@ -1,6 +1,6 @@
 package com.briup.apps.sms.bean;
 
-public class UserRole {
+public class User_Role {
 	private long id;
 	private long user_id;
 	private long role_id;
@@ -22,5 +22,4 @@ public class UserRole {
 	public void setRole_id(long role_id) {
 		this.role_id = role_id;
 	}
-	
 }
