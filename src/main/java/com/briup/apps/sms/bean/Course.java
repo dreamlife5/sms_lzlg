@@ -5,10 +5,10 @@ public class Course {
        private String name;
        private String credit;
        private Long user_id;
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -23,10 +23,10 @@ public class Course {
 	public void setCredit(String credit) {
 		this.credit = credit;
 	}
-	public long getUser_id() {
+	public Long getUser_id() {
 		return user_id;
 	}
-	public void setUser_id(long user_id) {
+	public void setUser_id(Long user_id) {
 		this.user_id = user_id;
 	}
 }
