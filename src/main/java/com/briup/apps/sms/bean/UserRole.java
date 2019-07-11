@@ -1,5 +1,7 @@
 package com.briup.apps.sms.bean;
 
+import java.util.List;
+
 public class UserRole {
 	private long id;
 	private long user_id;
@@ -21,5 +23,9 @@ public class UserRole {
 	}
 	public void setRole_id(long role_id) {
 		this.role_id = role_id;
+	}
+	public static List<UserRole> selectAll() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
