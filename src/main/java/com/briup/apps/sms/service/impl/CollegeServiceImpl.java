@@ -7,7 +7,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 import com.briup.apps.sms.bean.College;
-import com.briup.apps.sms.dao.Collegedao;
+import com.briup.apps.sms.dao.CollegeDao;
 import com.briup.apps.sms.service.CollegeService;
 /**
  *学院业务逻辑处理的实现类 
@@ -16,7 +16,7 @@ import com.briup.apps.sms.service.CollegeService;
 public class CollegeServiceImpl implements CollegeService{
      //依赖注入，实例化Collegerdao并且赋值给Collegedao这个变量
 	@Resource
-	private Collegedao Collegedao;
+	private CollegeDao Collegedao;
 	@Override
 	public List<College> selectAll(){
 	return Collegedao.selectAll();
