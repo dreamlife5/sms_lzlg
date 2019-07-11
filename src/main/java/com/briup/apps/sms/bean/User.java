@@ -6,6 +6,7 @@ public class User{
 	private String password;
 	private String student_no;
 	private String gender;
+	//注意大小写
 	public Long getId() {
 		return id;
 	}
