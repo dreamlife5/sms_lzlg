@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService{
 	return userDao.selectAll();
 	}
 	@Override
-	public void saveOrUpdate(User user)date(User user) throws Exception{
+	public void saveOrUpdate(User user) throws Exception{
 		if(user.getId() == null) {
 			userDao.insert(user);
 		}else {
